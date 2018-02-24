@@ -12,16 +12,18 @@
 		F7240A8A204192C200D04790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7240A88204192C200D04790 /* Main.storyboard */; };
 		F7240A8C204192C200D04790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7240A8B204192C200D04790 /* Assets.xcassets */; };
 		F7240A8F204192C200D04790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7240A8D204192C200D04790 /* LaunchScreen.storyboard */; };
+		F7240A97204192D800D04790 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7240A96204192D800D04790 /* CSVParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7240A81204192C200D04790 /* CSVParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7240A81204192C200D04790 /* SwiftCSVParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCSVParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7240A84204192C200D04790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7240A86204192C200D04790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7240A89204192C200D04790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7240A8B204192C200D04790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7240A8E204192C200D04790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7240A90204192C200D04790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7240A96204192D800D04790 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		F7240A82204192C200D04790 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7240A81204192C200D04790 /* CSVParser.app */,
+				F7240A81204192C200D04790 /* SwiftCSVParser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				F7240A8B204192C200D04790 /* Assets.xcassets */,
 				F7240A8D204192C200D04790 /* LaunchScreen.storyboard */,
 				F7240A90204192C200D04790 /* Info.plist */,
+				F7240A96204192D800D04790 /* CSVParser.swift */,
 			);
 			path = CSVParser;
 			sourceTree = "<group>";
@@ -67,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7240A80204192C200D04790 /* CSVParser */ = {
+		F7240A80204192C200D04790 /* SwiftCSVParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7240A93204192C200D04790 /* Build configuration list for PBXNativeTarget "CSVParser" */;
+			buildConfigurationList = F7240A93204192C200D04790 /* Build configuration list for PBXNativeTarget "SwiftCSVParser" */;
 			buildPhases = (
 				F7240A7D204192C200D04790 /* Sources */,
 				F7240A7E204192C200D04790 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CSVParser;
+			name = SwiftCSVParser;
 			productName = CSVParser;
-			productReference = F7240A81204192C200D04790 /* CSVParser.app */;
+			productReference = F7240A81204192C200D04790 /* SwiftCSVParser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7240A7C204192C200D04790 /* Build configuration list for PBXProject "CSVParser" */;
+			buildConfigurationList = F7240A7C204192C200D04790 /* Build configuration list for PBXProject "SwiftCSVParser" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7240A80204192C200D04790 /* CSVParser */,
+				F7240A80204192C200D04790 /* SwiftCSVParser */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +141,7 @@
 			files = (
 				F7240A87204192C200D04790 /* ViewController.swift in Sources */,
 				F7240A85204192C200D04790 /* AppDelegate.swift in Sources */,
+				F7240A97204192D800D04790 /* CSVParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = PHHGHM5K66;
 				INFOPLIST_FILE = CSVParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camps.CSVParser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camps.SwiftCSVParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = PHHGHM5K66;
 				INFOPLIST_FILE = CSVParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camps.CSVParser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camps.SwiftCSVParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7240A7C204192C200D04790 /* Build configuration list for PBXProject "CSVParser" */ = {
+		F7240A7C204192C200D04790 /* Build configuration list for PBXProject "SwiftCSVParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7240A91204192C200D04790 /* Debug */,
@@ -312,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7240A93204192C200D04790 /* Build configuration list for PBXNativeTarget "CSVParser" */ = {
+		F7240A93204192C200D04790 /* Build configuration list for PBXNativeTarget "SwiftCSVParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7240A94204192C200D04790 /* Debug */,
